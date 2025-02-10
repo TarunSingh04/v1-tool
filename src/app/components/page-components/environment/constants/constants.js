@@ -1,4 +1,4 @@
-import EuLabelWidget from "../widgets/euLabelWidget";
+import EuLabelWidget from "../widgets/EuLabelWidget.jsx";
 
 export const QUESTION_SET_1 = [
   {
