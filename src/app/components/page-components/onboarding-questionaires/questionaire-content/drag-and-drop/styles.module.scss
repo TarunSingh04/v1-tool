@@ -1,0 +1,97 @@
+.dropFileInput {
+    border: 2px dashed #1492EF;
+    background-color: #F1F8FF;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-height: 80px;
+    font-family: Montserrat;
+  
+    &.dragover {
+      background-color: #e2e8f0;
+    }
+  
+    &__label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+  
+      p {
+        // margin-top: 10px;
+        font-size: 14px;
+        // font-weight: 400;
+      }
+    }
+  
+    input {
+      display: none;
+    }
+  }
+  
+  .dropFilePreview {
+    margin-top: 20px;
+  
+    &__title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    &__item {
+      display: flex;
+      // align-items: center;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #e5e7eb;
+      border-radius: 5px;
+      background-color: #f9fafb;
+  
+      img {
+        width: 50px;
+        height: 50px;
+      }
+  
+      &__info {
+        flex-grow: 1;
+        margin-left: 10px;
+  
+        p {
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+  
+      &__del {
+        color: red;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .dragInnerText{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    p{
+      margin-left: 20px;
+      font-style: normal;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #1492EF;
+      font-weight: 700;
+    }
+  }
+  .dropFilePreview__title{
+    text-align: start;
+  }

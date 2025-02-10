@@ -1,0 +1,255 @@
+/* Overall container for the progress ring, legend, and note */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  20px;
+    border-radius: 32px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    height: 360px;
+    width: 540px;
+    margin-left: 10px;
+    padding-top: 0;
+    position: relative;
+
+    h4{
+      font-size: 18px;
+      font-weight: 700;
+      color: #111;
+      // margin-top: 20px;
+      // margin-bottom: 20px;
+      padding-left: 0;
+      margin-left: 0;
+  }
+  }
+  .subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    padding: 45px 0;
+    // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; 
+    height: 370px;
+  }
+  
+  .progressRingWrapper {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  /* Percentage text inside the ring */
+  .percentageText {
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Grade text inside the ring */
+  .gradeText {
+    position: absolute;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    top: 40px;
+  }
+  .legend {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    margin-top: 10px;
+  }
+  .percentageCovered{
+    color: #666;
+    font-size: 16px;
+  }
+  .percentageText{
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+  }
+  
+  .legendItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .colorBoxGreen {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #00c49f;
+  }
+  .colorBoxYellow {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #ffbb28;
+  }
+  .colorBoxRed {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #ff8042;
+  }
+
+  
+  /* Note message styling */
+  .note {
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    
+    h4{
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+    }
+  }
+  
+  .note p {
+    padding: 0;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .note ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  .note li {
+    margin-bottom: 5px;
+  }
+  
+  .green-box,
+  .yellow-box,
+  .red-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 2px;
+  }
+  
+  .green-box {
+    background-color: #00c49f;
+  }
+  
+  .yellow-box {
+    background-color: #ffbb28;
+  }
+  
+  .red-box {
+    background-color: #ff8042;
+  }
+  .labelstxt{
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+  }
+  .infocont{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hoverIcon{
+    color: rgb(97, 97, 97);
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .tooltip {
+    width: 200px;
+    min-height: 280px;
+    background: #111111ed;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;  
+    border-radius: 20px;  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.524);  
+    font-size: 14px;  
+    top: 300px;  
+    left: 350px;  
+    z-index: 1000;  
+    white-space: nowrap;  
+  }
+  .cardheader{
+    color: #1D2029;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .cardDescription{
+    font-size: 16px;
+    color: #7C7C7C;
+    font-weight: 400;
+    margin: 8px 0;
+    span{
+      font-weight: 600;
+      color: #1492EF;
+    }
+  }
+  .cardscore{
+    font-size: 12px;
+    color: #7C7C7C;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    .coldotIcon{
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+  }
+  .scordisplaycont{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    .scoreoverall{
+      font-size: 14px;
+      font-weight: 400;
+      color: #7C7C7C;
+      display: flex;
+      margin-bottom: 2px;
+      align-items: flex-end;
+      .arrowIcon{
+        margin-bottom: 8px;
+      }
+      span{
+        font-size: 48px;
+        color: #1492EF;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:1280px){
+    .container{
+      width: 92%;
+    }
+  }

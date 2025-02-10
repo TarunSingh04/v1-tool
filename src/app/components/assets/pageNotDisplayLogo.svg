@@ -1,0 +1,13 @@
+<svg width="156" height="112" viewBox="0 0 156 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="36.4755" y="17.4999" width="80" height="80" rx="40" fill="#FAFAFA"/>
+<path d="M80.4755 69.4999H65.8089C65.1016 69.4999 64.4234 69.219 63.9233 68.7189C63.4232 68.2188 63.1422 67.5405 63.1422 66.8333V48.1666C63.1422 47.4594 63.4232 46.7811 63.9233 46.281C64.4234 45.7809 65.1016 45.4999 65.8089 45.4999H87.1422C87.8495 45.4999 88.5277 45.7809 89.0278 46.281C89.5279 46.7811 89.8089 47.4594 89.8089 48.1666V61.4999" stroke="#1960BB" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M63.1422 50.8333H89.8089M67.1422 48.1799L67.1555 48.1653M71.1422 48.1799L71.1555 48.1653M75.1422 48.1799L75.1555 48.1653M84.4755 71.1573L87.3035 68.3279M87.3035 68.3279L90.1329 65.4999M87.3035 68.3279L84.4755 65.4999M87.3035 68.3279L90.1329 71.1573" stroke="#1960BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1.09589" y1="-1.09589" x2="3.40487" y2="-1.09589" transform="matrix(-1 0 0 1 44.8306 12.5)" stroke="#1492EF" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="9.76068" y2="-1.09589" transform="matrix(-1 0 0 1 37.1891 12.4999)" stroke="#1492EF" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="3.40487" y2="-1.09589" transform="matrix(-1 0 0 1 24.9723 32.226)" stroke="#FFB86B" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="9.76068" y2="-1.09589" transform="matrix(-1 0 0 1 17.331 32.226)" stroke="#FFB86B" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="3.40487" y2="-1.09589" transform="matrix(1 0 0 -1 108.474 102.226)" stroke="#1492EF" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="9.76068" y2="-1.09589" transform="matrix(1 0 0 -1 116.115 102.226)" stroke="#1492EF" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="3.40487" y2="-1.09589" transform="matrix(1 0 0 -1 128.332 82.5001)" stroke="#FFB86B" stroke-width="2.19178" stroke-linecap="round"/>
+<line x1="1.09589" y1="-1.09589" x2="9.76068" y2="-1.09589" transform="matrix(1 0 0 -1 135.973 82.5001)" stroke="#FFB86B" stroke-width="2.19178" stroke-linecap="round"/>
+</svg>

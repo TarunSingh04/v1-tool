@@ -1,0 +1,302 @@
+.scorecard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.parentContainer {
+    position: relative;
+}
+  
+.childContainer {
+    position: absolute;
+    top: 67%;
+    left: 27.5%;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.badgeheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .badgeheaderinfo2cont{
+        width: 200px;
+        height:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 30px;
+        // background-color: rgba(128, 128, 128, 0.056);
+    }
+    .badgeheaderinfo2{
+        width: 180px;
+        height: 180px;
+        border-radius: 50% ;
+        font-size: 100px;
+        color: #fff;
+        border: 10px solid #fff ;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        // margin-right: 60px;
+    }  
+    h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 25px;
+        color: grey;
+        font-weight: 700;
+        font-style: italic;
+        span{
+            color: #111;
+        }
+    }
+    .susHeaderImg{  
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+.scorecardBody{
+    h2{
+        color: #111;
+    }
+}
+.scorecardBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    .scorecardsubcontbar{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 20px;
+        p{
+            width: 160px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #7C7C7C;
+            padding-bottom: 10px;
+            cursor: pointer;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+        .boldScoreSection{
+            color: #1492EF;
+            border-bottom: 2px solid #1492EF;
+        }
+        border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+    }
+
+    .scorecardsubcontbar2{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        p{
+            width: 160px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #7C7C7C;
+            padding-bottom: 10px;
+            cursor: pointer;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+        .boldScoreSection{
+            color: #1492EF;
+            border-bottom: 2px solid #1492EF;
+        }
+        border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+    }
+}
+.scoreBodyContent{
+    //max-width: 1180px;//
+    margin-bottom: 50px;
+}
+
+.sectionHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 42px;
+    p{
+        font-size: 12px;
+        color: rgba(124, 124, 124, 1);
+        font-weight: 500;
+        margin-left: 10px;
+        span{
+            margin-right: 10px;
+        }
+    }
+  }
+  .mytasksubHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    p{
+      color: rgba(124, 124, 124, 1);
+      font-size: 14px;
+      font-weight: 400;
+      width: 620px;
+    }
+    .headerbtn{
+        width: 180px;
+        height: 40px;
+        border: none;
+        color: #fff;
+        background: #1492EF;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+  }
+  .headerbox2{
+    display: flex;
+    // width: 300px;
+  }
+  .companydesc{
+    display: flex;
+    align-items: center;
+    span{
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid #E4E4E4;
+        color: #1492EF;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        .linkIcon{
+            margin-left: 5px;
+        }
+    }
+    .LocationIcon{
+        margin-right: 4px;
+    }
+  }
+  .companydesc2{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    span{
+        padding-left: 10px;
+        color: #7C7C7C;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #E4E4E4;
+        padding-right: 10px;
+        margin-right: 10px;
+        .linkIcon{
+            margin-left: 5px;
+        }
+    }
+    .LocationIcon{
+        margin-right: 4px;
+    }
+  }
+  .backtoReport{
+    cursor: pointer;
+  }
+  .companyName{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1D2029;
+  }
+  .mytasksubHeader2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerbox1{
+        display: flex;
+    }
+    .companydesc{
+        color: rgba(124, 124, 124, 1);
+        font-size: 14px;
+        font-weight: 400;
+        width: 620px;
+        margin-top: 7px;
+    }
+    .companydesc2{
+        color: rgba(124, 124, 124, 1);
+        font-size: 14px;
+        font-weight: 400;
+        width: 620px;
+        margin-top: 7px;
+    }
+    .headerbtn{
+        width: 180px;
+        height: 40px;
+        border: none;
+        color: #fff;
+        background: #1492EF;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+  }
+  .scordisplaycont{
+    display: flex;
+    width: 140px;
+    flex-direction: column;
+    border-right: 1px solid #E4E4E4;
+    margin-right: 15px;
+    .scoreoverall{
+      font-size: 14px;
+      font-weight: 400;
+      color: #7C7C7C;
+      display: flex;
+      margin-bottom: 2px;
+      align-items: flex-end;
+      .arrowIcon{
+        margin-bottom: 8px;
+      }
+      span{
+        font-size: 48px;
+        color: #1492EF;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  .scoreData{
+    font-size: 72px;
+    font-weight: 600;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-left: 20px;
+}

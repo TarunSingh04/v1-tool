@@ -1,0 +1,131 @@
+// DateInput.module.scss
+.container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .selectedDate {
+    margin-top: 1rem;
+    color: #4b5563;
+  }
+  
+  .dateInputWrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .inputContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    
+    &:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+    }
+  }
+  
+  .calendarButton {
+    position: absolute;
+    right: 0.8rem;
+    top: 40%;
+    border: none;
+    background-color: #FFFFFF;
+    transform: translateY(-50%);
+    color: #3b82f6;
+    
+    &:hover {
+      color: #2563eb;
+    }
+  }
+  
+  .calendarIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .calendar {
+    position: absolute;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+    left: 24%;
+    top: 65%;
+  }
+  
+  .calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .monthYear {
+    font-weight: 600;
+  }
+  
+  .navigationButton {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #f3f4f6;
+    }
+  }
+  
+  .calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.25rem;
+  }
+  
+  .dayName {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+    font-weight: 500;
+  }
+  
+  .dayButton {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+    &:hover:not(.selected) {
+      background-color: #eff6ff;
+    }
+    
+    &.invisible {
+      visibility: hidden;
+    }
+    
+    &.selected {
+      background-color: #3b82f6;
+      color: white;
+      
+      &:hover {
+        background-color: #2563eb;
+      }
+    }
+  }

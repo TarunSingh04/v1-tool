@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    // margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    // margin-top: 180px;
+    margin-bottom: 30px;
+  }
+  
+  .progressContainer {
+    // margin-bottom: 1rem;
+    background-color: #e5e7eb;
+    height: 1px;
+  }
+  
+  .progressBar {
+    // top: 50%;
+    // transform: translateY(-50%);
+    left: 0;
+    background-color: #3b82f6;
+    height: 6px;
+    transition: all 500ms ease-out;
+    border-radius: 20px;
+  }
+  
+  .stepCount {
+    margin-top: 1rem;
+    // text-align: center;
+    color: #4b5563;
+  }

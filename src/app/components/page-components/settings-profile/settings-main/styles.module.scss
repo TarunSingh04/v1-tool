@@ -1,0 +1,284 @@
+
+.settingsBoxType1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.settingBoxleftcont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    .Headertxt{
+        color: #1D2029;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize; 
+    }
+    .txtBody{
+        font-size: 14px;
+        font-weight: 400;
+        color: #7C7C7C;
+        margin: 15px 0;
+        margin-bottom: 22px;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+.settingBoxleftcont1{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  .Headertxt{
+      color: #1D2029;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: capitalize; 
+  }
+  .txtBody{
+      font-size: 14px;
+      font-weight: 400;
+      color: #7C7C7C;
+      margin: 15px 0;
+      margin-bottom: 22px;
+      span{
+          font-weight: 600;
+      }
+  }
+}
+.edit{
+    color: #1492EF;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    span{
+        margin-left: 5px;
+    }
+}
+.inputBoxStyles{
+    width: 100%;
+    padding:12px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    background-color: white;
+    appearance: none;
+    padding-right: 40px;
+    background-position: right 10px center;
+    background-size: 20px;
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.inputBoxStyles:focus{
+    outline: none;
+}
+.searchbar{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(228, 228, 228, 1);
+  border-radius: 8px;
+  position: relative;
+  .searchIcon{
+      position: absolute;
+      left: 10px;
+  }
+  input{
+      border: none;
+      width: 320px;
+      padding: 10px 16px;
+      color: rgba(121, 121, 121, 1);
+      font-size: 14px;
+      font-weight: 400;
+      padding-left: 40px;
+      border-radius: 8px;
+  }
+  input:focus{
+      outline: none;
+  }
+  input:placeholder-shown{
+      color: rgba(121, 121, 121, 1);
+      font-size: 14px;
+      font-weight: 400;
+  }
+}
+
+.selectContainer {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    font-family: Montserrat;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 12px;
+      height: 12px;
+    //   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231a75ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+      pointer-events: none;
+    }
+  }
+  
+  .select {
+    width: 100%;
+    padding:12px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    background-color: white;
+    appearance: none;
+    padding-right: 40px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230066FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  .deactivate{
+    color: #F97066;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .signout{
+    color: #1492EF;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    .ImageIcon{
+        margin-right: 7px;
+    }
+  }
+  .btncont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .savebtn{
+    width: 260px;
+    padding: 10px;
+    border-radius: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1492EF;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .toggleWrapper {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #1492EF;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Active (blue background) */
+  .toggleWrapper.active {
+    background-color: #1492EF;
+  }
+  
+  /* Slider circle */
+  .slider {
+    width: 20px;
+    height: 20px;
+    background-color: #1492EF;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  /* Move the slider to the right when active */
+  .toggleWrapper.active .slider {
+    left: 27.5px; /* Adjust based on the width of the toggleWrapper */
+    background-color: #FFFFFF;
+  }
+  .toggledState{
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7C7C7C;
+  }
+  .settingBoxrightcont{
+    display: flex;
+    align-items: center;
+  }
+
+  /* Suggestions Wrapper */
+.suggestions {
+  position: absolute;
+  top: 95%; /* Positions it right below the search box */
+  left: 0;
+  width: 100%; /* Matches the width of the search box */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  max-height: 150px;
+  overflow-y: auto; /* Enables scrolling for long lists */
+}
+
+/* Individual Suggestion Item */
+.suggestionItem {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.suggestionItem:hover {
+  background-color: #f0f0f0;
+}
+
+@media screen and (max-width:1300px){
+  .settingBoxleftcont1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    .Headertxt{
+        color: #1D2029;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize; 
+    }
+    .txtBody{
+        font-size: 14px;
+        font-weight: 400;
+        color: #7C7C7C;
+        margin: 15px 0;
+        margin-bottom: 22px;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+}

@@ -1,0 +1,378 @@
+.parentContainer {
+  position: relative;
+}
+
+.childContainer {
+  position: absolute;
+  top: 67%;
+  left: 27.5%;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.Sustainability {
+  width: 100%;
+}
+.badgeheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 25px;
+    color: grey;
+    font-weight: 700;
+    font-style: italic;
+    span {
+      color: #111;
+    }
+  }
+  .susHeaderImg {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.BadgeBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.badgecontent {
+  display: flex;
+}
+.BadgeBodyInfo {
+  width: 50%;
+  margin-top: 30px;
+  width: 502px;
+  height: 382px;
+  box-shadow: 0px 12px 48px -4px #0000000f;
+  border-radius: 32px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .upperpart {
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1d2029;
+      margin-bottom: 30px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #e4e4e4;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #7c7c7c;
+      margin-top: 20px;
+    }
+  }
+  .lowerpart {
+    p {
+      color: #1492ef;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      .dotIcon {
+        color: #1492ef;
+        font-size: 7px;
+        margin-right: 7px;
+      }
+    }
+  }
+  .lowerpart2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.BadgeBodyInfo2 {
+  width: 50%;
+  margin-top: 30px;
+  width: 502px;
+  height: 382px;
+  box-shadow: 0px 12px 48px -4px #0000000f;
+  border-radius: 32px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  position: relative;
+  .upperpart {
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1d2029;
+      margin-bottom: 30px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #e4e4e4;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #7c7c7c;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .lowerpart {
+    p {
+      color: #1492ef;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      .dotIcon {
+        color: #1492ef;
+        font-size: 7px;
+        margin-right: 7px;
+      }
+    }
+  }
+  .lowerpart2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.scorecardBody {
+  h2 {
+    color: #111;
+  }
+}
+.scorecardBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  .scorecardsubcontbar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    p {
+      width: 160px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #7c7c7c;
+      padding-bottom: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      margin-top: 15px;
+    }
+    .boldScoreSection {
+      color: #1492ef;
+      border-bottom: 2px solid #1492ef;
+    }
+    border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+  }
+  .scorecardBodyContent {
+    margin-bottom: 50px;
+    // max-width: 1180px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .utilitycards {
+    width: 40%;
+  }
+}
+.flagimg {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 42px;
+  p {
+    font-size: 12px;
+    color: rgba(124, 124, 124, 1);
+    font-weight: 500;
+    margin-left: 10px;
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+.mytasksubHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  p {
+    color: rgba(124, 124, 124, 1);
+    font-size: 14px;
+    font-weight: 400;
+    width: 620px;
+  }
+  .headerbtn {
+    width: 180px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background: #1492ef;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+.headerbox2 {
+  display: flex;
+  // width: 300px;
+}
+
+.scordisplaycont {
+  display: flex;
+  width: 140px;
+  flex-direction: column;
+  border-right: 1px solid #e4e4e4;
+  margin-right: 15px;
+  .scoreoverall {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7c7c7c;
+    display: flex;
+    margin-bottom: 2px;
+    align-items: flex-end;
+    .arrowIcon {
+      margin-bottom: 8px;
+    }
+    span {
+      font-size: 48px;
+      color: #1492ef;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+.scordisplaycont2 {
+  display: flex;
+  width: 140px;
+  flex-direction: column;
+  position: absolute;
+  top: 78%;
+  left: 75%;
+  .scoreoverall {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7c7c7c;
+    display: flex;
+    margin-bottom: 2px;
+    align-items: flex-end;
+    .arrowIcon {
+      margin-bottom: 8px;
+    }
+    span {
+      font-size: 48px;
+      color: #1492ef;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+.companyHeader {
+  display: flex;
+  align-items: center;
+  // margin-top: 10px;
+  // margin-bottom: 40px;
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d2029;
+  }
+  .dotIcon {
+    margin: 0 7px;
+  }
+  .Location {
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 12px;
+      font-weight: 700;
+      color: #7c7c7c;
+      margin-left: 5px;
+      text-transform: uppercase;
+    }
+  }
+}
+.lowerbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.downloadbtn1 {
+  width: 48%;
+  padding: 10px 18px;
+  color: #fff;
+  background: #1492ef;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .downloadIcon {
+    margin-right: 10px;
+  }
+}
+.downloadbtn2 {
+  width: 48%;
+  padding: 10px 18px;
+  color: #1492ef;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 1px solid #1492ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .downloadIcon {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .mytasksubHeader {
+    p {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .badgecontent {
+    flex-direction: column;
+  }
+  .BadgeBodyInfo {
+    width: 92%;
+  }
+  .BadgeBodyInfo2 {
+    width: 92%;
+  }
+}

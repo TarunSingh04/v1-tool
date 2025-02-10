@@ -1,0 +1,163 @@
+.onboardingPage{
+    width: 100%;
+    min-height: 100vh;
+    // background: rgba(198, 198, 198, 0.889);
+    display: flex;
+    justify-content: space-between;
+    // overflow: hidden;
+    overflow: auto;
+}
+.onboardingBox{
+    width: 1100px;
+    min-height: 700px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 40px 0;
+    display: flex;
+    padding: 40px 30px;
+}
+.questionaireContent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+}
+.questionaireSubContent{
+    width: 490px;
+    height: 90%;
+    // position: relative;
+}
+.StepProgress{
+    width: 490px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.dividerline{
+    width: 2px;
+    background-color: rgba(198, 198, 198, 0.417);
+}
+
+@media screen and (max-width:1300px){
+    .onboardingBox{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    .dividerline{
+        display: none;
+    }
+}
+@media screen and (max-width:850px){
+    .onboardingBox{
+        width: 80%;
+        padding: 40px 10px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .onboardingBox{
+        width: 90%;
+        padding: 40px 10px;
+        margin: 20px;
+    }
+}
+
+.headerbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .gobtn{
+        margin-top:  40px;  
+        border-radius: 20px;
+        background-color: #FAFAFA;
+        color: #0C2C55;
+        width: 150px;
+        border: none;
+        font-weight: 600;
+        padding: 15px 18px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .leftIcon{
+            margin-right: 15px;
+        }
+    }
+}
+
+
+//pageNotDisplay
+
+.onboardingPageCont{
+    width: 100%;
+    height: 100vh;
+    // overflow: hidden;
+}
+.pageNotDisplay{
+    display: none;
+}
+
+@media screen and (max-width:1020px){
+    .onboardingPage{
+        display: none;
+    }
+    //pageNotDisplay
+    .pageNotDisplay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        .pageNotDisplaytitle{
+            font-weight: 600;
+            font-size: 20px;
+            color: #1D2029;
+            margin-top: 30px;
+        }
+        .pageNotDisplaysubtitle{
+            font-size: 16px;
+            font-weight: 500;
+            color: #7C7C7C;
+            margin: 10px 0;
+        }
+        .pageNotDisplaydesc{
+            font-size: 14px;
+            font-weight: 400;
+            color: #7C7C7C;
+            width: 700px;
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .pageNotDisplay{
+      .pageNotDisplaydesc{
+        width: 90%;
+        text-align: center;
+      } 
+    }
+}
+
+@media screen and (max-width:430px){
+    .pageNotDisplay{
+      .pageNotDisplaydesc{
+        font-size: 12px;
+      } 
+    }
+}
+
+@media screen and (max-width:380px){
+    .onboardingPageCont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pageNotDisplay{
+        width: 90%;
+    }
+}

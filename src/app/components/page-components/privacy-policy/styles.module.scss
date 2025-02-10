@@ -1,0 +1,99 @@
+.privacyPage{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sectionHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 42px;
+    p{
+        font-size: 12px;
+        color: rgba(124, 124, 124, 1);
+        font-weight: 500;
+        margin-left: 10px;
+        span{
+            margin-right: 10px;
+        }
+    }
+}
+.titleheader{
+    display: flex;
+    flex-direction: column;
+}
+.maintitle{
+    color: #1D2029;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.subdesc{
+    font-size: 14px;
+    color: #7C7C7C;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.containerBody{
+    width: 100%;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    min-height: 400px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.maincontainertitle{
+    width: 80%;
+    // margin-left: 20px;
+    padding-bottom: 20px;
+    color: #1D2029;
+    font-size: 16px;
+    font-weight: 600;
+}
+.maincontainertitle2{
+    width: 80%;
+    // margin-left: 20px;
+    padding-bottom: 20px;
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 600;
+}
+.privacyLink{
+    color: #1D2029;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+.containerdesc{
+    width: 80%;
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 20px;
+}
+.containerdesc2{
+    width: 80%;
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.CompanyInfo1{
+    margin-top: 30px;
+    span{
+        color: #7C7C7C;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+}
+.CompanyInfo2{
+    margin-top: 5px;
+    span{
+      color: #7C7C7C;
+      font-weight: 600;
+    }
+}

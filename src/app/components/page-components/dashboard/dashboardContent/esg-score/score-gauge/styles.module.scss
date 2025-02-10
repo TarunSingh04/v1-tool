@@ -1,0 +1,46 @@
+.gaugeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .gaugeWrapper {
+    position: relative;
+  }
+  
+  .gaugeContent {
+    padding: 10px;
+    background: white;
+    border-radius: 9999px;
+    position: relative;
+  }
+  
+  .gauge {
+    transform: scaleX(-1); // Flip horizontally to start from left
+  }
+  
+  .track {
+    transition: stroke 0.3s ease;
+  }
+  
+  .progress {
+    transition: stroke-dashoffset 0.5s ease-in-out;
+    transform-origin: center;
+  }
+  
+  .labelContainer {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .label {
+    font-size: 108px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }

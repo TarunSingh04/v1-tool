@@ -1,0 +1,525 @@
+.LoginPage{
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+}
+.alertmessage{
+    color: #FF5151;
+    font-size: 12px;
+    font-weight:600;
+}
+.alertbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.LoginContainer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headerbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .gobtn{
+        margin-top: 40px;
+        border-radius: 20px;
+        background-color: #FAFAFA;
+        color: #0C2C55;
+        width: 150px;
+        border: none;
+        font-weight: 600;
+        padding: 15px 18px;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .leftIcon{
+            margin-right: 15px;
+        }
+    }
+}
+.otpTitle{
+    text-align: center;
+    color: #7C7C7C;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.otpDescription{
+    text-align: center;
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+    span{
+        font-weight: 600;
+        color: #1492EF;
+    }
+}
+.wrapperInputBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    // border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 30px;
+    margin-bottom: 26px;
+    span{
+        display: flex;
+        align-items: center;
+        color: #12B76A;
+        font-size: 14px;
+        font-weight: 600;
+        .icon{
+            margin-right: 5px;
+        }
+    }
+    input{
+        padding: 12px 10px;
+        margin-bottom: 10px;
+        border: 1px solid #E4E4E4;
+        border-radius: 8px;
+        background: #FFFFFF;
+    }
+    .sendBtn{
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #1492EF;
+        top: 36px;
+        cursor: pointer;
+        left: 88%;
+    }
+    input:placeholder-shown{
+        color: #7C7C7C;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        color: #1D2029;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+}
+.LoginBox{
+    width: 490px;
+    margin-top: 60px;
+}
+
+.buttonBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    button{
+        padding: 12px 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .loginButton{
+        background-color: rgb(24, 119, 242);
+        color: #fff;
+        font-weight: 600;
+    }
+    .buttonBoxLinks{ 
+        font-size: 11px;
+        color: grey;
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+.loginHeader{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #E4E4E4;
+}
+.loginHead{
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 0px;
+}
+.loginsubHead{
+    color: #7C7C7C;
+    font-size: 18px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+.loginsubHead2{
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    // width: 80%;
+}
+.rememberBox{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    input{
+        cursor: pointer;
+    }
+    label{
+        font-weight: 500;
+        margin-left: 5px;
+        color: #0b0b0b;
+    }
+}
+.AuthHeader{
+    width: 90%;
+    margin-bottom: 80px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-weight: 800;
+        margin-left: 8px;
+        font-size: 50px;
+        text-transform:uppercase;
+        span{
+            color: rgb(24, 119, 242);
+        }
+    }
+}
+@media screen and (max-width:1150px){
+    .LoginBox{
+        width: 60%;
+    }
+    .buttonBox{
+        .buttonBoxLinks1{
+            font-size: 10.5px;
+        }
+    }   
+}
+@media screen and (max-width:1000px){
+    .BackgroundImage{
+        p{
+            font-size: 12px;
+        }
+    }
+}
+@media screen and (max-width:910px){
+    .LoginBox{
+        width: 70%;
+    }
+    .buttonBox{
+        .buttonBoxLinks1{
+            font-size: 10.5px;
+        }
+    }
+    
+}
+@media screen and (max-width:800px){
+    .LoginContainer{
+        width: 100%;
+    }
+    .BackgroundImage{
+        display: none;
+    }
+    .LoginBox{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .AuthHeader{
+        justify-content: center;
+    }
+    .LoginContainer{
+        margin-top: 20vh;
+    }
+}
+@media screen and (max-width:500px){
+    .LoginContainer{
+        height: auto;
+    }
+    .LoginBox{
+        width: 80%;
+    }
+}
+@media screen and (max-width:340px){
+    .buttonBox{
+        .buttonBoxLinks1{
+            font-size: 9px;
+        }
+    }
+}
+
+
+/* TwoFactorAuth.module.scss */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #1960BBCC;/* bg-gray-100 */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    z-index: 10000;
+}
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem; /* mb-8 */
+  }
+  
+  .forgotPassword {
+    color: #9ca3af; /* text-gray-400 */
+  }
+  
+  .createAccount {
+    color: #6d28d9; /* text-purple-600 */
+  }
+  
+  .iconWrapper {
+    display: inline-block;
+    padding: 0.75rem; /* p-3 */
+    background-color: #d5e2ff; /* bg-purple-100 */
+    border-radius: 9999px; /* rounded-full */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  .mailIcon {
+    width: 2rem; /* w-8 */
+    height: 2rem; /* h-8 */
+    color: rgb(24, 119, 242);; /* text-purple-600 */
+  }
+  
+  .title {
+    font-size: 26px; /* text-2xl */
+    font-weight:600; /* font-bold */
+    margin-bottom: 15px; /* mb-2 */
+    color: #1D2029;
+  }
+  
+  .description {
+    color: #7C7C7C; /* text-gray-600 */
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom:  1px solid #7c7c7c4a;;
+  }
+  
+  .codeInputs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* space-x-4 */
+    margin-bottom: 1.5rem; /* mb-6 */
+    margin-top: 30px;
+  }
+  
+  .input {
+    width: 4rem; /* w-12 */
+    height: 3rem; /* h-12 */
+    text-align: center;
+    font-size: 1.5rem; /* text-2xl */
+    border: 2px solid #d1d5db; /* border-2 border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    outline: none;
+    transition: border-color 0.3s;
+    color: rgb(24, 119, 242);
+    font-weight: 700;
+    font-size: 35px;
+  }
+  
+  .input:focus {
+    border-color: rgb(24, 119, 242); /* focus:border-purple-500 */
+  }
+  
+  .resend {
+    text-align: center;
+    margin-bottom: 1.5rem; /* mb-6 */
+    display: flex;
+    font-size: 12px;
+    color: #4b5563;
+    font-weight: 600;
+    p{
+        margin-right: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(24, 119, 242);
+    }
+
+  }
+  
+  .resendLink {
+    color: #6d28d9; /* text-purple-600 */
+    text-decoration: underline;
+  }
+  
+  .button {
+    width: 275px;
+    // background-color: #6d28d9; /* bg-purple-600 */
+    background-color: #1492EF;
+    color: #ffffff;
+    border-radius: 30px; /* rounded-lg */
+    transition: background-color 0.3s;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+  }
+  
+  .button:hover {
+    background-color: rgb(5, 93, 208);
+    cursor: pointer;
+  }
+  
+
+
+.boxCont{
+  background-color: #fff;
+  width: 620px;
+  // height: 400px;
+  border-radius: 25px;
+  padding: 30px 30px;
+}
+.closeheader{
+  display: flex;
+  justify-content: flex-end;
+}
+.closeIcon{
+  font-size: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.buttonCont{
+    display: flex;
+    justify-content: center;
+}
+
+
+//pageNotDisplay
+
+.LoginPageCont{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.pageNotDisplay{
+    display: none;
+}
+
+@media screen and (max-width:1020px){
+    .LoginPage{
+        display: none;
+    }
+    //pageNotDisplay
+    .pageNotDisplay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        .pageNotDisplaytitle{
+            font-weight: 600;
+            font-size: 20px;
+            color: #1D2029;
+            margin-top: 30px;
+        }
+        .pageNotDisplaysubtitle{
+            font-size: 16px;
+            font-weight: 500;
+            color: #7C7C7C;
+            margin: 10px 0;
+        }
+        .pageNotDisplaydesc{
+            font-size: 14px;
+            font-weight: 400;
+            color: #7C7C7C;
+            width: 700px;
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .pageNotDisplay{
+      .pageNotDisplaydesc{
+        width: 90%;
+        text-align: center;
+      } 
+    }
+}
+
+@media screen and (max-width:430px){
+    .pageNotDisplay{
+      .pageNotDisplaydesc{
+        font-size: 12px;
+      } 
+    }
+}
+
+@media screen and (max-width:380px){
+    .LoginPageCont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pageNotDisplay{
+        width: 90%;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #1960BBCC;/* bg-gray-100 */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    z-index: 10000;
+}
+
+.loader {
+    width: 65px;
+    aspect-ratio: 1.154;
+    --_g: no-repeat radial-gradient(farthest-side,#fff 90%,#0000);
+    background: 
+      var(--_g) 50%  0,
+      var(--_g) 0    100%,
+      var(--_g) 100% 100%;
+    background-size: 35% calc(35%*1.154);
+    animation: l16 1s infinite;
+  }
+  @keyframes l16{ 
+      50%,100% {background-position: 100% 100%,50% 0,0 100%} 
+  }

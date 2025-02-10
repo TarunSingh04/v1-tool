@@ -1,0 +1,164 @@
+.Sidebar{
+    height: 100vh;
+    width: 280px;
+    flex-shrink: 0;
+    background-color: rgb(251 248 248);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    // padding: 0px 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10000;
+}
+.SidebarHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Menu{
+    font-size: 18px;
+    color: rgb(158, 156, 156);;
+    font-weight: 500;
+    // padding: 0 20px;
+    width: 100%;
+    .tabs{
+        width: 100%;
+        font-size: 14px;
+        padding: 15px 20px;
+        // margin-top: px;
+        font-weight: 500;
+        cursor: pointer;
+        padding-left: 35px;
+        display: flex;
+        align-items: center;
+        border-left: 3px solid rgb(251 248 248);;
+    }
+    .tabActivate{
+        width: 100%;
+        font-size: 14px;
+        padding: 15px 0px;
+        // margin-top: 10px;
+        cursor: pointer;
+        padding-left: 35px;
+        display: flex;
+        align-items: center;
+        border-left: 3px solid #1492EF;
+        font-weight: 600;
+        color: #1492EF;
+        background-color: #F1F8FF;
+    }
+    .tabs:hover{
+        border-left: 3px solid #1492EF;
+        font-weight: 600;
+        color: #1D2029;
+    }
+    .tabName{
+        margin-left: 10px;
+    }
+    .sidebarIcon{
+        font-size: 18px;
+        color: #1492EF;
+        cursor: pointer;
+    }
+}
+.headIcon{
+    cursor: pointer;
+}
+// .searchBox{
+//     width: 80%;
+//     background-color: rgb(8 62 205 / 96%);
+//     margin-top: 20px;
+//     position: relative;
+//     border-radius: 20px;
+// }
+// .searchIcon{
+//     position: absolute;
+//     bottom: 12px;
+//     left: 15px;
+//     font-size: 16px;
+//     color: #1111118b;
+//     cursor: pointer;
+// }
+.SidebarFooter{
+    // border-top: 2px solid #27262632;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    width: 100%;
+    padding: 10px 0;
+    font-style: italic;   
+    margin-top: 80px;
+}
+.header{
+    width: 100%;
+    margin: 25px 0px;
+    margin-left: 20px;
+    // background-color: red;
+}
+.profileCont{
+    box-shadow: rgba(0, 0, 0, 0.164)x 18px 50px -10px;    
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 32px;
+    padding: 6px 12px;
+    justify-content: space-between;
+    .profileInfo{
+        margin-left: 7px;
+        p{
+            font-size: 12px;
+            font-weight: 600;
+            color: #1D2029;
+        }
+        span{
+            font-size: 12px;
+            font-weight: 400;
+            color: #797979;
+        }
+    }
+    .profilesubcont{
+        display: flex;
+        align-items: center;
+    }
+}
+.profileImage{
+    border-radius: 50%;
+}
+.dividerLineClass{
+    width: 100%;
+    height: 1px;
+    background-color: #E4E4E4;
+    margin: 12px 20px;
+}
+
+@media screen and (max-height:850px) {
+    .Sidebar{
+        overflow-y: auto;
+    }
+
+/* Scrollbar Styles */
+.Sidebar::-webkit-scrollbar {
+    width: 6px; /* Adjust scrollbar width */
+  }
+  
+  .Sidebar::-webkit-scrollbar-track {
+    background-color: #f0f8ff; /* Light blue track color */
+  }
+  
+  .Sidebar::-webkit-scrollbar-thumb {
+    background-color: #add8e6; /* Light blue thumb color */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Firefox scrollbar styling */
+  .Sidebar {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #1494ef15 #f0f8ff; /* Thumb color and track color */
+  }
+}

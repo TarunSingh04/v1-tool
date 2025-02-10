@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:  20px;
+    // background-color: rgb(51 52 53 / 5%);
+    // margin-left: 20px;
+    margin-bottom: 0px;
+    border-radius: 32px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    height: 420px;
+    width: 440px;
+    margin-left: 20px;
+    // border-radius: 20px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+
+    h4{
+      font-size: 18px;
+      font-weight: 700;
+      color: #111;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 0;
+      margin-left: 0;
+  }
+  }
+
+  .cardheader{
+    color: #1D2029;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+.taskheaderBox{
+    display: flex;
+    justify-content: space-between;
+}
+.taskHead{
+    display: flex;
+    align-items: center;
+}
+.taskBox{
+    background-color: #fff;
+    width: 96%;
+    padding: 16px;
+    border-radius: 16px;   
+    margin-bottom: 10px;
+    padding-right: 0;
+    background-color: #FAFAFA;
+    // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;   
+}
+.taskHeader{
+    font-weight: 600;
+    color:#1D2029;
+    margin-left:10px;
+    font-size: 16px;
+}
+.taskDesc{
+    font-size: 14px;
+    color: #7C7C7C;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 45px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    .dotIcon{
+        margin-right: 8px;
+        font-size: 5px;
+    }
+}
+.certificateBadgeIcon{
+    margin-right: 0px;
+}
+.tags{
+    width: 100%;
+    margin-top: 20px;
+}
+.todo{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #0077ff;
+    background: #0077ff2a;
+    padding: 4px 15px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.progress{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #e08905;
+    background: #ff9b0047;
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.done{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #059b03;
+    background: #06c40433;
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.taskexpbtn{
+    width: 100%;
+    border: none;
+    background-color: #111111b7;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.certificateButton{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0;
+    // border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.questionairebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .questionbtn2{
+    width: 48%;
+    color: #1492EF;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid #1492EF;
+    border: none;
+    padding: 10px 0;
+    border-radius: 32px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  .btnIcon{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width:1280px){
+    .container{
+        width: 92%;
+        margin-left: 10px;
+    }
+}

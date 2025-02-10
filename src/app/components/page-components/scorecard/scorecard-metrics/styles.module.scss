@@ -1,0 +1,119 @@
+.Metrics{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+}
+.graphcont{
+    width: 100%;
+    display: flex;
+    margin-bottom:50px ;
+    justify-content: space-between;
+    // flex-direction: column;
+    // align-items: center;
+    .graph{
+        width: 46%;
+        padding: 20px;
+        border-radius: 16px;
+        // height: 440px;
+        box-shadow: 0px 12px 48px -4px #0000000F;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h2{
+            font-size: 18px;
+            font-weight: 600;
+            color: #1D2029;
+            text-align: start;
+            margin-left: 15px;
+        }
+        .subheader{
+            font-weight: 400;
+            color: #7C7C7C;
+            font-size: 14px;
+            margin: 8px 0;
+            margin-left: 15px;
+            margin-bottom: 25px;
+        }
+    }
+}
+.companyHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        color: #1D2029;
+    }
+    .dotIcon{
+        margin: 0 7px;
+    }
+    .Location{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 12px;
+            font-weight: 700;
+            color: #7C7C7C;
+            margin-left: 5px;
+            text-transform: uppercase;
+        }
+    }
+}
+.DataCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    padding: 24px;
+    padding-bottom: 48px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+
+    .dataTablecont{
+        width: 100%;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+        color: #1D2029;
+        text-align: start;
+    }
+    .subtitle{
+        font-weight: 400;
+        color: #7C7C7C;
+        font-size: 14px;
+        margin: 8px 0;
+        margin-bottom: 5px;
+    }
+    margin-bottom: 40px;
+}
+.scorecardLabelcont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .scoregraph{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .submaingraph{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .graphcont{
+        width: 100%;
+        flex-direction: column;
+        .graph{
+            width: 100%;
+            padding: 0;
+        }
+    }
+}

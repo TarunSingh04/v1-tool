@@ -1,0 +1,135 @@
+.Profile{
+    width: 1300px;
+    min-height: 100vh;
+    font-size: 20px;
+    padding: 80px 50px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.question1content{
+    width: 60%;
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    h2{
+        margin-bottom: 50px;
+    }
+}
+.Inputcont{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperInputBox{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 15px 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        background-color: #fff;
+        border: 1px solid  rgba(0, 0, 0, 0.127);
+    }
+    input::placeholder{
+        color: rgb(155, 155, 155);
+    }
+    p{
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 2px;
+        color: rgba(124, 124, 124, 0.918);
+    }
+    select{
+        padding: 15px 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        background-color: #fff;
+        border: 1px solid  rgba(0, 0, 0, 0.127);
+    }
+}
+.ImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 0;
+    margin-bottom: 20px;
+    .ProfileImage{
+        border-radius: 10px;
+    }
+    .ImageButtons{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        button{
+            cursor: pointer;
+            padding: 6px 40px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            background-color: rgb(24, 119, 242);
+            border-radius: 5px;
+        }
+        .uploadButton{
+            cursor: pointer;
+            padding: 6px 40px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #d5e2ff;
+    color: rgb(24, 119, 242);
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .removeButton{
+            color: rgb(95, 94, 94);
+            background-color: rgba(169, 169, 169, 0.33);
+            margin-left: 15px;
+        }
+    }
+}
+
+.Editprofilebtn{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        font-size: 17px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3b3a3a;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .savebutton{
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        font-size: 17px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #05b061;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

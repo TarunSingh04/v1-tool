@@ -1,0 +1,41 @@
+.BackgroundImage{
+    width: 30%;
+    min-height: 100vh;
+    background-color: #F1F8FF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .companylogo{
+        margin: 0 30px;
+        // width: 92%;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #7C7C7C;
+        span{
+            color: #1960BB;
+        }
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .companyInfo{
+        color: #1D2029;
+        margin: 0 30px;
+        font-size: 24px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #7C7C7C;
+        padding: 20px 0;
+    }
+    p{
+        color: #7C7C7C;
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin: 0 30px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .BoxLogo{
+        width: 100%;
+        // height: auto;
+    }
+}

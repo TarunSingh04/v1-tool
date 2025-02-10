@@ -1,0 +1,256 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:  20px;
+    // background-color: rgb(51 52 53 / 5%);
+    // margin-left: 20px;
+    margin-bottom: 0px;
+    border-radius: 32px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    height: 420px;
+    width: 615px;
+    margin-left: 10px;
+    // border-radius: 20px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+
+    h4{
+      font-size: 18px;
+      font-weight: 700;
+      color: #111;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 0;
+      margin-left: 0;
+  }
+  }
+  .cardheader{
+    color: #1D2029;
+    font-size: 16px;
+    font-weight: 600;
+    // margin-top: 20px;
+  }
+.priceCont{
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+}
+.pricebox{
+    width: 50%;
+    padding: 16px;
+    background-color: #E1FFED;
+    color: #12B76A;
+    border-radius: 12px;
+    .amount{
+        font-size: 24px;
+        display: flex;
+        align-items: flex-start;
+        font-weight: 600;
+        span{
+            font-size: 12px;
+            margin-top: 3px;
+        }
+    }
+    .desc{
+        font-size: 14px;
+        color: #7C7C7C;
+        font-weight: 500;
+        margin-top: 3px;
+    }
+}
+.pricebox1{
+    width: 50%;
+    padding: 16px;
+    background-color: #FAFAFA;
+    color: #1D2029;
+    margin-left: 10px;
+    border-radius: 12px;
+    .amount{
+        font-size: 24px;
+        display: flex;
+        align-items: flex-start;
+        font-weight: 600;
+        margin-top: 10px;
+        span{
+            font-size: 12px;
+            margin-top: 3px;
+        }
+    }
+    .desc{
+        font-size: 14px;
+        color: #7C7C7C;
+        font-weight: 500;
+        margin-top: 3px;
+    }
+}
+.certificatesprice{
+    width: 100%;
+}
+.certificateBox{
+    height: 245px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #fff;
+}
+.certificatesHead{
+    font-size: 14px;
+    width: 60%;
+    font-weight: 600;
+    color: #1D2029;
+    span{
+        margin-right: 18px;
+    }
+}
+.certificatespriceHead{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D2029;
+    span{
+        margin: 0 10px;
+    }
+}
+.certificatesdata{
+    width: 96%;
+    border-radius: 10px;
+    padding: 16px 2%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+
+    .certificateNumber{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .certificatesName{
+        font-size: 14px;
+        width: 62%;
+        font-weight: 400;
+    }
+    .certificateAmount{
+        color: #7C7C7C;
+        width: 150px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        font-weight: 600;
+        span{
+            margin-left: 20px;
+        }
+    }
+}
+
+.certificatesdatafade{
+    width: 96%;
+    border-radius: 10px;
+    padding: 16px 2%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    opacity: 0.5;
+    border-radius: 8px;
+
+    .certificateNumber{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .certificatesName{
+        font-size: 14px;
+        width: 62%;
+        font-weight: 400;
+    }
+    .certificateAmount{
+        color: #7C7C7C;
+        width: 150px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        font-weight: 600;
+        span{
+            margin-left: 20px;
+        }
+    }
+}
+.certificatesdataheader{
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px 2%;
+    margin: 10px 0;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    .certificatesName{
+        font-size: 14px;
+        width: 120px;
+        font-weight: 600;
+    }
+    .certificateAmount{
+        font-size: 13px;
+        width: 150px;
+        font-weight: 600;
+        span{
+            margin-left: 20px;
+        }
+    }
+}
+.questionairebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .questionbtn2{
+    width: 48%;
+    color: #1492EF;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid #1492EF;
+    border: none;
+    padding: 10px 0;
+    border-radius: 32px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  .btnIcon{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+
+@media screen and (max-width:1280px){
+    .container{
+        width: 92%;
+    }
+    .certificatesdata{
+      .certificatesName{
+        width: 70%;
+      } 
+    }
+    .certificatesdatafade{
+        .certificatesName{
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width:1170px){
+    .certificatesdata{
+      .certificatesName{
+        width: 65%;
+      }
+    }
+    .certificatesdatafade{
+        .certificatesName{
+            width: 65%;
+        }
+    }
+}

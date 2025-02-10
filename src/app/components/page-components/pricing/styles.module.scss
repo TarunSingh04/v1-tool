@@ -1,0 +1,221 @@
+.pricing{
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    width: 96%;
+    height: 8vh;
+    // margin-top: 40px;
+    background: #fff;
+    padding: 2vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+    // padding-bottom: 60px;
+    border-bottom: 1px solid rgba(228, 228, 228, 1);
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 8px;
+    position: relative;
+    .searchIcon{
+        position: absolute;
+        left: 10px;
+    }
+    input{
+        border: none;
+        width: 420px;
+        padding: 10px 16px;
+        color: rgba(121, 121, 121, 1);
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 40px;
+        border-radius: 8px;
+    }
+    input:focus{
+        outline: none;
+    }
+    input:placeholder-shown{
+        color: rgba(121, 121, 121, 1);
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+.notifycont{
+    display: flex;
+    .notify{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(241, 248, 255, 1);
+        width: 70px;
+        height: 40px;
+        border-radius: 32px;
+        margin-right: 20px;
+        cursor: pointer;
+        span{
+            font-size: 16px;
+            margin-left: 3px;
+            font-weight: 700;
+            color: rgba(20, 146, 239, 1);
+        }
+    }
+    .logout{
+        width: 135px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgba(20, 146, 239, 1);
+        border: 1px solid rgba(20, 146, 239, 1);
+        border-radius: 32px;
+        cursor: pointer;
+        span{
+            margin-left: 5px;
+        }
+    }
+}
+.NavItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // background-color: aqua;
+}
+.navIconscont{
+    display: flex;
+}
+.navIcons{
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
+}
+.Title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2029;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #7C7C7C;
+    font-size: 16px;
+    font-weight: 400;
+}
+.PricePageCont{
+    display: flex;
+    margin-bottom: 15px;
+}
+.cardBox{
+    width: 325px;
+    height: 560px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    border-radius: 16px;
+    margin: 0 15px;
+    margin-top: 50px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardBox:hover{
+    border: 1px solid #1492EF;
+}
+.tagcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    .tag{
+        font-size: 10px;
+        font-weight: 600;
+        color: #1492EF;
+        background: #EBF2FF;
+        border-radius: 16px;
+        padding: 2px 6px;
+    }
+    margin-bottom:10px ;
+}
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 65px;
+    height: 65px;
+}
+.cardTitle{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D2029;
+    margin: 15px 0;
+}
+.cardPrice{
+    color: #7C7C7C;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    span{
+        font-weight: 600;
+        color: #1492EF;
+        font-size: 32px;
+    }
+    .euroIconsymbol{
+        font-size: 16px;
+    }
+    .yeartxt{
+        color: #7C7C7C;
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 16px;
+    }
+}
+.dividerline{
+    width: 100%;
+    height: 1px;
+    background-color: #E4E4E4;
+    margin: 40px 0;
+    margin-bottom: 30px;
+}
+.cardfeatures{
+    display: flex;
+    // align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7C7C7C;
+    padding: 12px 2px;
+    border-radius: 8px;
+    // margin-bottom: 15px;
+    .cardfeatureIcon{
+        margin-right: 10px;
+    }
+}
+.uppercont{
+    width: 100%;
+}
+.lowercont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background: #1492EF;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 18px ;
+        border-radius: 32px;
+        border: none;
+        cursor: pointer;
+    }
+}

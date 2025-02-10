@@ -1,0 +1,66 @@
+.Achievements{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.taskcont{
+    border-radius: 32px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    padding: 24px 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.taskHeader{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 24px;
+    padding-bottom: 20px ;
+    padding-top: 15px;
+    border-bottom: 1px solid #E4E4E4;
+}
+.desctxt{
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7C7C7C;
+    margin: 10px 24px;
+    margin-top: 15px;
+}
+.archievementscont{
+    display: flex;
+    margin: 0 24px;
+    flex-wrap: wrap;
+}
+.certificateBox{
+    margin: 20px 0;
+    margin-right: 15px;
+}
+.certificateBox{
+    padding: 16px ;
+    border-radius: 16px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    width: 224px;
+}
+.titlecont{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+    .certicatetitle{
+        font-size: 16px;
+        font-weight: 600;
+        color: #1D2029;
+    }
+}
+.textInfo{
+    display: flex;
+    flex-direction: column;
+}
+.certificatedesc{
+    display: flex;
+    color: #7C7C7C;
+    margin-top: 5px;
+}
+.dotIcon{
+    margin-right: 5px;
+    font-size: 16px;
+}

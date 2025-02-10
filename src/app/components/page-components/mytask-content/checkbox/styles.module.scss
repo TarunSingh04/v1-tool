@@ -1,0 +1,156 @@
+// Checkbox.module.scss
+// .checkboxContainer {
+//     display: inline-flex;
+//     position: relative;
+//     align-items: center;
+//     cursor: pointer;
+//     padding-left: 28px;
+//     user-select: none;
+    
+//     &:hover {
+//       .checkmark {
+//         border-color: #2196f3;
+//       }
+//     }
+//   }
+  
+//   .checkboxInput {
+//     position: absolute;
+//     opacity: 0;
+//     cursor: pointer;
+//     height: 0;
+//     width: 0;
+  
+//     &:checked ~ .checkmark {
+//       background-color: #2196f3;
+//       border-color: #2196f3;
+  
+//       &:after {
+//         display: block;
+//       }
+//     }
+  
+//     &:disabled ~ .checkmark {
+//       background-color: #e0e0e0;
+//       border-color: #ccc;
+//       cursor: not-allowed;
+//     }
+  
+//     &:disabled ~ .label {
+//       color: #999;
+//       cursor: not-allowed;
+//     }
+//   }
+  
+//   .checkmark {
+//     position: absolute;
+//     left: 0;
+//     height: 20px;
+//     width: 20px;
+//     background-color: white;
+//     border: 2px solid #ccc;
+//     border-radius: 4px;
+//     transition: all 0.2s ease-in-out;
+  
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       display: none;
+//       left: 6px;
+//       top: 2px;
+//       width: 4px;
+//       height: 10px;
+//       border: solid white;
+//       border-width: 0 2px 2px 0;
+//       transform: rotate(45deg);
+//     }
+//   }
+  
+//   .label {
+//     margin-left: 8px;
+//     font-size: 14px;
+//     color: #333;
+//   }
+
+
+// Checkbox.module.scss
+.checkboxContainer {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  flex-direction: row;
+  gap: 8px;
+  
+  &:hover {
+    .checkmark {
+      border-color: #2196f3;
+    }
+  }
+}
+
+.checkboxWrapper {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.checkboxInput {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+  &:checked ~ .checkmark {
+    background-color: #2196f3;
+    border-color: #2196f3;
+
+    &:after {
+      display: block;
+    }
+  }
+
+  &:disabled ~ .checkmark {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  &:disabled ~ .label {
+    color: #999;
+    cursor: not-allowed;
+  }
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border: 1.5px solid #ccc;  // Slightly thinner border for smaller size
+  border-radius: 3px;        // Slightly reduced border radius
+  transition: all 0.2s ease-in-out;
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;     // Adjusted position
+    top: 2px;      // Adjusted position
+    width: 3px;    // Reduced width
+    height: 7px;   // Reduced height
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;  // Thinner checkmark
+    transform: rotate(45deg);
+  }
+}
+
+.label {
+  font-size: 14px;
+  color: #333;
+  margin-right: 4px;
+}

@@ -1,0 +1,31 @@
+.QuestionaireBox{
+    width: 100%;
+    height: 100vh;
+}
+.questionesidebar{
+    width:30%;
+    height: 100vh;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+}
+.impakterLogo{
+    width: 165px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+.companylogo{
+    margin: 0 30px;
+    // width: 92%;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #7C7C7C;
+    span{
+        color: #1960BB;
+    }
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

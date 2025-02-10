@@ -1,0 +1,45 @@
+.Notfouncnt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.notfoundmaintxt{
+    font-size: 72px;
+    font-weight: 600;
+    margin: 10px;
+    color: linear-gradient(88.83deg, #5EA5FF 0%, #C79AFF 44.5%, #FFB76A 90.88%);
+}
+.notfoundtitletxt{
+    font-weight: 500;
+    font-size: 16px;
+    color: #7C7C7C;
+    margin-top: 15px;
+}
+.notfoundtitlesubtxt{
+    font-weight: 500;
+    font-size: 14px;
+    color: #7C7C7C;
+    margin-top: 2px;
+}
+.notfoundImagetxtIcon{
+    margin-top: 5px;
+}
+.notfoundbtn{
+    cursor: pointer;
+    width: 222px;
+    width: #1492EF;
+    display: flex;
+    justify-content: center;
+    background-color: #1492EF;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 32px;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    margin-top: 30px;
+}

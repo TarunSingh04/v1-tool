@@ -1,0 +1,158 @@
+.planboard{
+    width: 540px;
+    height: 340px;
+    padding:  20px;
+    border-radius: 32px;
+    box-shadow: 0px 12px 48px -4px #0000000F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.planheader{
+    color: #1D2029;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 20px;
+}
+.planCards{
+    display: flex;
+    justify-content: space-between;
+    .cards{
+        width: 29%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 0px 12px 48px -4px #0000000F;
+        border-radius: 16px;
+        box-shadow: 0px 12px 48px -4px #0000000F;
+        padding: 8px;
+        .imageContainer{
+            width: 36px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            color: #F1F8FF;
+            box-shadow: 0px 8px 16px 0px #335FFF1A;
+            margin-bottom: 15px;
+        }
+        .carddescription{
+            font-size: 12px;
+            font-weight: 600;
+            color: #7C7C7C;
+        }
+    }
+}
+.plandescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7C7C7C;
+    margin-bottom: 35px;
+}
+
+.listelements{
+    margin-left: 30px;
+    li{
+        font-size: 16px;
+        font-weight: 600;
+        color: #7C7C7C;
+        margin-bottom: 5px;
+    }
+}
+.lowercont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    button{
+        color: #fff;
+        background: #1492EF;
+        border-radius: 32px;
+        padding: 10px 18px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+}
+.rightArrowIcon{
+    font-size: 18px;
+    margin-left: 5px;
+}
+@media screen and (max-width:1360px){
+    .planCards{
+        display: flex;
+        justify-content: space-between;
+        .cards{
+            width: 29%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-shadow: 0px 12px 48px -4px #0000000F;
+            border-radius: 16px;
+            box-shadow: 0px 12px 48px -4px #0000000F;
+            padding: 8px;
+            .imageContainer{
+                width: 36px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                color: #F1F8FF;
+                box-shadow: 0px 8px 16px 0px #335FFF1A;
+                margin-bottom: 15px;
+            }
+            .carddescription{
+                font-size: 10px;
+                font-weight: 600;
+                color: #7C7C7C;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1280px){
+    .planboard{
+        width: 92%;
+        margin-left: 10px;
+    }
+    .planCards{
+        display: flex;
+        justify-content: space-between;
+        .cards{
+            width: 29%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-shadow: 0px 12px 48px -4px #0000000F;
+            border-radius: 16px;
+            box-shadow: 0px 12px 48px -4px #0000000F;
+            padding: 8px;
+            .imageContainer{
+                width: 36px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                color: #F1F8FF;
+                box-shadow: 0px 8px 16px 0px #335FFF1A;
+                margin-bottom: 15px;
+            }
+            .carddescription{
+                font-size: 12px;
+                font-weight: 600;
+                color: #7C7C7C;
+            }
+        }
+    }
+}
